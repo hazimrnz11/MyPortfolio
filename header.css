@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #213448;
+  border-bottom: 1px solid rgba(14, 13, 13, 0.692);
+  z-index: 200;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px;
+  margin-left: 5px;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.name {
+  font-family: Tourney;
+  font-size: 36px;
+}
+
+.social-media {
+  padding: 5px 10px;
+}
+
+.social-media:hover img {
+  padding-top: 5px;
+}
+
+.social-media img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
