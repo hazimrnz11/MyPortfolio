@@ -1,0 +1,79 @@
+.work-experiences {
+  font-family: Forum, Arial;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.work-exp {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(109, 85, 218);
+  margin-top: 16px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+
+.mcd-part-time,
+.nam-motor-intern {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-box {
+  display: inline-block;
+  width: 500px;
+  background-color: #547792;
+  border-radius: 6px;
+  color: black;
+
+  transition: padding 0.5s;
+}
+
+.title-box:hover {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: #7fafd4;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.work-place,
+.work-position,
+.work-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-place {
+  font-size: 26px;
+}
+
+.work-position {
+  font-size: 20px;
+}
+
+.work-year {
+  font-size: 18px;
+}
+
+.work-info {
+  font-size: 24px;
+}
+
+li {
+  line-height: 40px;
+}
